@@ -19,7 +19,7 @@ guessButton.addEventListener('click', () => {
   // Retrieve the player's guess
   const currentHumanGuess = humanGuessInput.value;
   // Make a random 'computer guess'
-  const computerGuess = Math.floor(Math.random() * 10);
+  const computerGuess = Math.floor(Math.random() * 1);
 
   // Display the computer guess and the target
   computerGuessDisplay.innerText = computerGuess;
